@@ -1,0 +1,58 @@
+.news {
+    padding-top: 30px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .buttons {
+    width: fit-content;
+    margin: 10px auto;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: white;
+  }
+  .article {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  .container__text {
+    display: none;
+  }
+  .title {
+    margin-top: 8px;
+    max-width: 350px;
+    margin-bottom: 8px;
+  }
+  .picture {
+    width: 350px;
+    height: 220px;
+  }
+  .desc {
+    margin-top: 5px;
+    max-width: 350px;
+    font-size: 16px;
+  }
+  .text__article {
+    height: 54px;
+    overflow: hidden;
+  }
+  .link {
+    color: black;
+    font-size: 18px;
+  }
+  .btn::first-letter {
+    text-transform: uppercase;
+  }
+  .position {
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+  }
